@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+	
+	var caminhoComGasolina = parseInt(prompt("digite quantos km com gasolina"));
+	var caminhoComAlcool = parseInt(prompt("digite quantos km com Alcool"));
+	var tanque = parseInt(prompt("digite valor do tanque"));
+
+			function pulalinha(){
+			   	 document.write("<br><br>");		
+			}
+
+		    function mostra(exibir) {
+				 document.write(exibir);
+				 pulalinha();
+		    }
+
+	var consumoComGasolina = (caminhoComGasolina/tanque);
+
+	// document.write("O consumo de gasolina é de: " + consumoComGasolina);
+
+	mostra("O consumo de gasolina é de: " + consumoComGasolina);
+
+	var consumoComAlcool = (caminhoComAlcool/tanque);
+
+    // document.write("O consumo de gasolina é de: " + consumoComAlcool);
+
+	mostra("O consumo de Alcool é de: " + consumoComAlcool);
+
+	 // document.write("ola pessoal");
+
+    mostra("Esse é o consumo");
+
+
+
+</script>
